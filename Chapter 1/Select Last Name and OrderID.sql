@@ -1,4 +1,4 @@
 SELECT LastName,
   OrderId
-FROM Customer
+FROM Custome
   JOIN Orders on Customer.CustomerID = Orders.CustomerId;
